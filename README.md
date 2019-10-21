@@ -19,5 +19,6 @@
 - Clone your private githubclassroom repository to your working repository  
 - Create a maven project by following the instructions below
 [https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html](https://maven.apache.org/guides/getting-started/maven-in-five-minutes.html)
-- Push your work to the repository
-- Make sure that "java -cp" command prints out "Hello  World!"
+- Add Apache Maven Shade Plugin and configure your jar file name as your GitHub username
+- Push your work to the repository without target folder
+- Make sure that "java -jar target\GitHubUserName.jar" command prints out "Hello  World!"
